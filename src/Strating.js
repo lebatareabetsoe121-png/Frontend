@@ -6,7 +6,7 @@ function Strating() {
     { name: "Mr Baki Ntho", course: "Web Programming", rating: 4.2 },
     { name: "Prof. Khanya Lebata", course: "Intro to Computer Architecture", rating: 4.5 },
     { name: "Mrs Chavhula Moyo", course: "Discreete Mathematics", rating: 4.0 },
-    { name: "Mr Ntho Nkhatho", course: "Data Graphics", rating: 3.8 },
+    { name: "Mr Neo Phiri", course: "Data Graphics", rating: 3.8 },
      { name: "Ms Tsebo Mahase", course: "OOP Java II", rating: 3.8 },
       { name: "Mr Thuto Molapo", course: "Data Networking", rating: 7 },
   ];

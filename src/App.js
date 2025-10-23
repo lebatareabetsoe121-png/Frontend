@@ -18,6 +18,8 @@ import Prlmonitor from './Prlmonitor';
 import Prcourses from './Prcourse';
 import AddCourse from './Addcourse';
 import Pldash from './Pldash';
+import Prlreport from './Prlreport';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
+        
         <Route path='/prlmon' element={<Prlmonitor/>}/>
+        <Route path='/plreport' element={<Prlreport/>}/>
         <Route path='/pldash' element={<Pldash/>}/>
         <Route path='/' element={<Landpage/>}/>
         <Route path="/addcourse" element={<AddCourse />} />

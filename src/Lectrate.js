@@ -9,7 +9,7 @@ function Lectrate() {
 
   useEffect(() => {
     if (lecturer_name){
-    fetch(`http://localhost:5000/ratings/${lecturer_name}`)
+    fetch(`http://localhost:5000/ratings:lecturer_name`)
       .then((res) => res.json())
       .then((data) => setRatings(data))
       .catch((err) => console.error("Error loading ratings:", err));

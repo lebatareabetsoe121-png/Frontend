@@ -6,7 +6,7 @@ function Prl() {
   const navigate = useNavigate();
   const boxes = [
     { id: 1, title: "Courses", subtitle: "View all courses & lectures under your stream", icon: <BookOpen />, path:"/pcourses" },
-    { id: 2, title: "Reports", subtitle: "View lecturer reports & add feedback", icon: <FileText /> },
+    { id: 2, title: "Reports", subtitle: "View lecturer reports & add feedback", icon: <FileText />, path:"/plreport" },
     { id: 3, title: "Monitoring", subtitle: "Monitor lecturer performance & activities", icon: <Eye />, path:"/prlmon" },
     { id: 4, title: "Rating", subtitle: "Rate lecturer performance & give feedback", icon: <Star />, path:"/prate" },
     { id: 5, title: "Classes", subtitle: "View classes in your stream", icon: <Users />, path:"/pclasses" }
